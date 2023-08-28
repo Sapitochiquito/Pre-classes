@@ -1,0 +1,146 @@
+.body1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:25%;
+  margin-right:25%;
+  border: 1px solid #000000;
+  margin-bottom: 5px;
+  padding: 0px 15px 0 15px;
+}
+input[type=text], input[type=password] 
+{
+  width: 97%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #bed6fa;
+}
+hr 
+{
+  border: 1px solid #e6e6e6;
+  margin-bottom: 5px;
+}
+.registerbutton
+{
+  background-color: #ae8ced;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text:bold;
+}
+
+
+/*Estilos de fondo y ancho de ventana*/
+.bg-login{
+  background-image: url('../../media/img/kid.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+
+}
+
+.login{
+  max-width: 600px;
+  padding: 15px;
+
+}
+.bg-reg{
+  background-image: url('../../media/img/nubes.avif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+}
+.animatic {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: animate__flash; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+}
+.start{
+  background-image: url('../../media/img/fondo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+
+}
+.navbar-custom {
+  background-color: #f2b385;
+}
+.button {
+  background-color: #0000; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #a8ffc7;
+  color: black;
+  border: 2px solid #80c498;
+}
+.button1:hover {background-color: #e0ffe7;}
+
+.button2 {
+  background-color: #a8d1ff;
+  color: black;
+  border: 2px solid #8099c4;
+}
+.button2:hover {background-color: #e0e9ff;}
+
+.button3 {
+  background-color: #ffd7a8;
+  color: black;
+  border: 2px solid #c4a080;
+}
+.button3:hover {background-color: #ffeee0;}
+
+.button4 {
+  background-color: #ffa8df;
+  color: black;
+  border: 2px solid #c4809c;
+}
+.button4:hover {background-color: #ffe0f8;}
+
+.bd-navbar {
+  padding:.75rem 0;
+  background-color:transparent;
+  box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(255,255,255,0.15)
+}
+.bd-navbar::after {
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  display:block;
+  content:"";
+  background-image:linear-gradient(rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95))
+}
+@media (max-width: 991.98px) {
+  .bd-navbar .bd-navbar-toggle {
+    width:4.25rem
+  }
+}
+.bd-navbar .navbar-toggler {
+  padding:0;
+  margin-right:-.5rem;
+  border:0
+}
